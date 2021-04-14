@@ -1,0 +1,475 @@
+{
+  "resourceType": "Bundle",
+  "type": "history",
+  "total": 52,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3706",
+        "name": "MALABA Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3708",
+        "name": "Mbale Municipality Health Centre II"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3710",
+        "name": "Mella Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3711",
+        "name": "MERIKIT Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3712",
+        "name": "Molo Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3713",
+        "name": "Moroto Regional Refferal HOSPITAL"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3714",
+        "name": "Mpongi Health Centre II"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3715",
+        "name": "Mudakor Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3716",
+        "name": "Mukuju Health Centre IV"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3717",
+        "name": "Mulagi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3718",
+        "name": "Mulanda Health Centre IV"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3719",
+        "name": "Muyembe Health centre IV"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3720",
+        "name": "NABIGANDA HEALTH CENTRE III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3721",
+        "name": "Nabitsikhi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3722",
+        "name": "Naboa Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3723",
+        "name": "Nabuli Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3724",
+        "name": "Nagongera Health Centre IV"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3725",
+        "name": "Nagwere Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3726",
+        "name": "Naiku Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3727",
+        "name": "Nakaloke Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3728",
+        "name": "Nakwasi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3729",
+        "name": "Namakwekwe Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3730",
+        "name": "Namanyonyi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3731",
+        "name": "Namatala Health Centre IV"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3732",
+        "name": "Namawanga Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3733",
+        "name": "Namengo Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3734",
+        "name": "Nansanga Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3735",
+        "name": "Naweyo Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3736",
+        "name": "Nyondo Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3737",
+        "name": "Osukuru Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3738",
+        "name": "Pallisa Hospital"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3739",
+        "name": "Pallisa Mission Kaucho Health Centre II"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3740",
+        "name": "Pallisa T/C Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3741",
+        "name": "Panyangara Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3742",
+        "name": "Panyangasi/Kidera Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3743",
+        "name": "Paya Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3744",
+        "name": "Petta Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3745",
+        "name": "Poyameri Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3746",
+        "name": "Sapiri Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3747",
+        "name": "Siira Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3748",
+        "name": "Sipi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3749",
+        "name": "Sironko Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3750",
+        "name": "St. Anthony'S Tororo HOSPITAL"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3751",
+        "name": "St. Austin Mbale Health Centre II"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3752",
+        "name": "St. Richard med care center"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3753",
+        "name": "St.Pius Kidepo Health Centre III Ngo"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3754",
+        "name": "Tapac Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3755",
+        "name": "TASO Mbale Clinic"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3756",
+        "name": "TASO Tororo CLINIC"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3757",
+        "name": "Tirinyi Health Centre III"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3758",
+        "name": "Tororo General Hospital"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Location",
+        "status": "active",
+        "mode": "instance",
+        "id": "fac-3759",
+        "name": "Wanale Health Centre III"
+      }
+    }
+  ]
+}

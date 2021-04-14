@@ -1,0 +1,631 @@
+{
+  "resourceType": "Basic",
+  "id": "ihris-es-report-ERHITES-staff",
+  "meta": {
+    "versionId": "8",
+    "lastUpdated": "2021-01-18T14:25:58.246+03:00",
+    "source": "#9bPzqTgeJQSqHE9W",
+    "profile": [
+      "http://ihris.org/fhir/StructureDefinition/iHRISRelationship"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportDetails",
+      "extension": [
+        {
+          "url": "label",
+          "valueString": "Staff Report"
+        },
+        {
+          "url": "displayCheckbox",
+          "valueBoolean": true
+        },
+        {
+          "url": "name",
+          "valueString": "practitioner"
+        },
+        {
+          "url": "resource",
+          "valueString": "Practitioner"
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [
+            {
+              "url": "display",
+              "valueString": "Last Name"
+            },
+            {
+              "url": "label",
+              "valueString": "given"
+            },
+            {
+              "url": "name",
+              "valueString": "name.first().given"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [
+            {
+              "url": "display",
+              "valueString": "First Name"
+            },
+            {
+              "url": "label",
+              "valueString": "family"
+            },
+            {
+              "url": "name",
+              "valueString": "name.first().family"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [
+            {
+              "url": "display",
+              "valueString": "Gender"
+            },
+            {
+              "url": "label",
+              "valueString": "gender"
+            },
+            {
+              "url": "name",
+              "valueString": "gender"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [
+            {
+              "url": "display",
+              "valueString": "National Identification Number"
+            },
+            {
+              "url": "label",
+              "valueString": "identifier"
+            },
+            {
+              "url": "name",
+              "valueString": "identifier.value"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportLink",
+      "extension": [{
+          "url": "name",
+          "valueString": "role"
+        },
+        {
+          "url": "resource",
+          "valueString": "PractitionerRole"
+        },
+        {
+          "url": "linkElement",
+          "valueString": "PractitionerRole.practitioner.reference"
+        },
+        {
+          "url": "linkTo",
+          "valueString": "practitioner"
+        },
+        {
+          "url": "multiple",
+          "valueBoolean": false
+        },
+        {
+          "url": "query"
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportLink",
+          "extension": [{
+              "url": "name",
+              "valueString": "location"
+            },
+            {
+              "url": "resource",
+              "valueString": "Location"
+            },
+            {
+              "url": "linkElement",
+              "valueString": "Location.id"
+            },
+            {
+              "url": "linkTo",
+              "valueString": "location"
+            },
+            {
+              "url": "multiple",
+              "valueBoolean": true
+            },
+            {
+              "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+              "extension": [{
+                  "url": "display",
+                  "valueString": "Facility/Community"
+                },
+                {
+                  "url": "label",
+                  "valueString": "facility"
+                },
+                {
+                  "url": "name",
+                  "valueString": "name"
+                },
+                {
+                  "url": "filter",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "dropDownFilter",
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Employment Title (Cadre)"
+            },
+            {
+              "url": "label",
+              "valueString": "cadre"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-employment-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+    
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "MER Category"
+            },
+            {
+              "url": "label",
+              "valueString": "MERCategory"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-MERCategory-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "SNU1/Region"
+            },
+            {
+              "url": "label",
+              "valueString": "snu"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-snu-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "PSNU/District"
+            },
+            {
+              "url": "label",
+              "valueString": "psnu"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-psnu-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "PEPFAR Program Area"
+            },
+            {
+              "url": "label",
+              "valueString": "progarea"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-progarea-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Site Service Type"
+            },
+            {
+              "url": "label",
+              "valueString": "siteservice"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-serviceDelivery-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "How many months"
+            },
+            {
+              "url": "label",
+              "valueString": "months"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-monthnum-ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Payment Mechanism"
+            },
+            {
+              "url": "label",
+              "valueString": "mechanism"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-payMechanism-ext').valueCoding.display"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Annuel Salary"
+            },
+            {
+              "url": "label",
+              "valueString": "annualsalary"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-annualSalary-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Annual Stipend"
+            },
+            {
+              "url": "label",
+              "valueString": "stipend"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-annualStipend-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Annual Non Monetary Compensation"
+            },
+            {
+              "url": "label",
+              "valueString": "nonmonetary"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-annualNonMonetary-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Total Annual PEPFAR Compensation"
+            },
+            {
+              "url": "label",
+              "valueString": "totalcomp"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-totalAnnual-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Total Expenditure in current FY"
+            },
+            {
+              "url": "label",
+              "valueString": "totalexpend"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-totalExpenditure-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Total Expenditure in current FY"
+            },
+            {
+              "url": "label",
+              "valueString": "totalexpend"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-totalExpenditure-Ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Fringe Benefit"
+            },
+            {
+              "url": "label",
+              "valueString": "fringe"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-annFringe-ext').valuePositiveInt"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": false
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": false
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Staff receives compensation?"
+            },
+            {
+              "url": "label",
+              "valueString": "rcvcomp"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-rcvcompensation-Ext').valueBoolean"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "http://ihris.org/fhir/StructureDefinition/iHRISReportElement",
+          "extension": [{
+              "url": "display",
+              "valueString": "Staff receives monetary compensation?"
+            },
+            {
+              "url": "label",
+              "valueString": "rcvmonetarycomp"
+            },
+            {
+              "url": "name",
+              "valueString": "extension.where(url='http://ihris.org/fhir/StructureDefinition/ihris-rcvMonetaryComp-Ext').valueBoolean"
+            },
+            {
+              "url": "filter",
+              "valueBoolean": true
+            },
+            {
+              "url": "dropDownFilter",
+              "valueBoolean": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://ihris.org/fhir/ValueSet/ihris-resource",
+        "code": "iHRISRelationship"
+      }
+    ],
+    "text": "iHRISRelationship"
+  },
+  "subject": {
+    "reference": "StructureDefinition/ihris-personal-information"
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "resourceType": "Parameters",
+  "id": "ihris-config",
+  "meta": {
+    "profile": [
+      "http://ihris.org/fhir/StructureDefinition/ihris-parameters-remote-config"
+    ]
+  },
+  "parameter": [
+    {
+      "name": "signature",
+      "valueSignature": {
+        "type": [
+          {
+            "system": "urn:iso-astm:E1762-95:2013",
+            "code": "1.2.840.10065.1.12.1.14"
+          }
+        ],
+        "when": "2020-12-02T07:53:02.542Z",
+        "who": {
+          "reference": "http://ihris.org/fhir/Organization/ihris"
+        },
+        "data": "ogOgm0nf7c5AXqs+cbIxYHEdm9fbn80Un9BMiggvscjB5owaAdMgcfVozED5F4pk9oTovpHkrmP6wRX2CrqQAbzIgecWUW/p+6I0vtGhAuwfVohKcnNKX4j9BlnHTj0Y7+vDFnp4WCQ+AN+xYls3j9SZJe5WQ9f3JiCxjG01YOk="
+      }
+    },
+    {
+      "name": "config",
+      "part": [
+        {
+          "name": "site:title",
+          "valueString": "iHRIS"
+        },
+        {
+          "name": "site:site",
+          "valueString": "E-RHITES"
+        },
+        {
+          "name": "site:logo",
+          "valueString": "EthiopiaMOH_logo.png"
+        },
+        {
+          "name": "site:auth:local:method",
+          "valueString": "post"
+        },
+        {
+          "name": "site:auth:local:link",
+          "valueString": "/auth/login"
+        },
+        {
+          "name": "site:auth:local:btn:image",
+          "valueString": "btn_ihris_signin.png"
+        },
+        {
+          "name": "site:auth:local:btn:image2x",
+          "valueString": "btn_ihris_signin_dark.png"
+        },
+        {
+          "name": "site:auth:local:btn:text",
+          "valueString": "Sign in with iHRIS"
+        },
+        {
+          "name": "site:footer:links:about:text",
+          "valueString": "About iHRIS"
+        },
+        {
+          "name": "site:footer:links:about:to",
+          "valueString": "/static/page-about"
+        },
+        {
+          "name": "site:footer:links:feedback:text",
+          "valueString": "Feedback"
+        },
+        {
+          "name": "site:footer:links:feedback:href",
+          "valueString": "https://forms.gle/jQJ7N3nDBSxSNne58"
+        },
+        {
+          "name": "site:footer:links:ihris:text",
+          "valueString": "iHRIS Website"
+        },
+        {
+          "name": "site:footer:links:ihris:href",
+          "valueString": "http://ihris.org/"
+        },
+        {
+          "name": "site:nav:home",
+          "valueString": "/dashboard/5e05a950-66c2-11eb-89a4-fb5d91f931e8"
+        },
+        {
+          "name": "site:nav:active",
+          "valueString": "person"
+        },
+        {
+          "name": "site:nav:menu:person:text",
+          "valueString": "People"
+        },
+        {
+          "name": "site:nav:menu:person:order",
+          "valueString": "1"
+        },
+        {
+          "name": "site:nav:menu:person:icon",
+          "valueString": "mdi-account-multiple"
+        },
+        {
+          "name": "site:nav:menu:person:menu:person_search:text",
+          "valueString": "Search People"
+        },
+        {
+          "name": "site:nav:menu:person:menu:person_search:url",
+          "valueString": "/resource/search/practitioner"
+        },
+        {
+          "name": "site:nav:menu:person:menu:person_add:text",
+          "valueString": "Add Person"
+        },
+        {
+          "name": "site:nav:menu:person:menu:person_add:url",
+          "valueString": "/questionnaire/ihris-personal-information/practitioner"
+        },
+        {
+          "name": "site:nav:menu:position:text",
+          "valueString": "Positions"
+        },
+        {
+          "name": "site:nav:menu:position:order",
+          "valueString": "2"
+        },
+        {
+          "name": "site:nav:menu:position:icon",
+          "valueString": "mdi-account-multiple"
+        },
+        {
+          "name": "site:nav:menu:position:menu:position_search:text",
+          "valueString": "Search Positions"
+        },
+        {
+          "name": "site:nav:menu:position:menu:position_search:url",
+          "valueString": "/resource/search/practitionerrole"
+        },
+        {
+          "name": "site:nav:menu:position:menu:position_add:text",
+          "valueString": "Add Position"
+        },
+        {
+          "name": "site:nav:menu:position:menu:position_add:url",
+          "valueString": "/resource/add/practitionerrole"
+        },
+        {
+          "name": "site:nav:menu:location:text",
+          "valueString": "Locations/Facilities"
+        },
+        {
+          "name": "site:nav:menu:location:order",
+          "valueString": "3"
+        },
+        {
+          "name": "site:nav:menu:location:icon",
+          "valueString": "mdi-map-marker-multiple"
+        },
+        {
+          "name": "site:nav:menu:location:menu:location_search:text",
+          "valueString": "Search Facility"
+        },
+        {
+          "name": "site:nav:menu:location:menu:location_search:url",
+          "valueString": "/resource/search/location"
+        },
+        {
+          "name": "site:nav:menu:location:menu:location_add:text",
+          "valueString": "Add Facility"
+        },
+        {
+          "name": "site:nav:menu:location:menu:location_add:url",
+          "valueString": "/resource/add/location"
+        },
+        {
+          "name": "site:nav:menu:database:text",
+          "valueString": "Admin"
+        },
+        {
+          "name": "site:nav:menu:database:order",
+          "valueString": "4"
+        },
+        {
+          "name": "site:nav:menu:database:icon",
+          "valueString": "mdi-database"
+        },
+        {
+          "name": "site:nav:menu:database:menu:programarea:text",
+          "valueString": "Program areas"
+        },
+        {
+          "name": "site:nav:menu:database:menu:programarea:url",
+          "valueString": "/resource/search/progarea"
+        },
+        {
+          "name": "site:nav:menu:database:menu:programarea:order",
+          "valueString": "1"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:paymechanism:text",
+          "valueString": "Payment mechanism"
+        },
+        {
+          "name": "site:nav:menu:database:menu:paymechanism:url",
+          "valueString": "/resource/search/paymechanism"
+        },
+        {
+          "name": "site:nav:menu:database:menu:paymechanism:order",
+          "valueString": "2"
+        },
+        {
+          "name": "site:nav:menu:database:menu:mercategory:text",
+          "valueString": "MER Category"
+        },
+        {
+          "name": "site:nav:menu:database:menu:mercategory:url",
+          "valueString": "/resource/search/mercategory"
+        },
+        {
+          "name": "site:nav:menu:database:menu:mercategory:order",
+          "valueString": "3"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:snu:text",
+          "valueString": "SNU/Region"
+        },
+        {
+          "name": "site:nav:menu:database:menu:snu:url",
+          "valueString": "/resource/search/snu"
+        },
+        {
+          "name": "site:nav:menu:database:menu:snu:order",
+          "valueString": "4"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:psnu:text",
+          "valueString": "PSNU/District"
+        },
+        {
+          "name": "site:nav:menu:database:menu:psnu:url",
+          "valueString": "/resource/search/psnu"
+        },
+        {
+          "name": "site:nav:menu:database:menu:psnu:order",
+          "valueString": "5"
+        },
+        {
+          "name": "site:nav:menu:database:menu:gender:text",
+          "valueString": "Gender"
+        },
+        {
+          "name": "site:nav:menu:database:menu:gender:url",
+          "valueString": "/resource/search/gender"
+        },
+        {
+          "name": "site:nav:menu:database:menu:gender:order",
+          "valueString": "8"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employment:text",
+          "valueString": "Employment Title (Cadre)"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employment:url",
+          "valueString": "/resource/search/employment"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employment:order",
+          "valueString": "9"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:mercadre:text",
+          "valueString": "MER Cadre"
+        },
+        {
+          "name": "site:nav:menu:database:menu:mercadre:url",
+          "valueString": "/resource/search/mercadre"
+        },
+        {
+          "name": "site:nav:menu:database:menu:mercadre:order",
+          "valueString": "10"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:sitetype:text",
+          "valueString": "Site type"
+        },
+        {
+          "name": "site:nav:menu:database:menu:sitetype:url",
+          "valueString": "/resource/search/sitetype"
+        },
+        {
+          "name": "site:nav:menu:database:menu:sitetype:order",
+          "valueString": "11"
+        },
+
+        {
+          "name": "site:nav:menu:database:menu:supporttype:text",
+          "valueString": "Support type"
+        },                                                                        
+        {
+          "name": "site:nav:menu:database:menu:supporttype:url",
+          "valueString": "/resource/search/supporttype"
+        },
+        {
+          "name": "site:nav:menu:database:menu:supporttype:order",
+          "valueString": "12"
+        },
+        {
+          "name": "site:nav:menu:database:menu:ownership:text",
+          "valueString": "Facility ownership"
+        },                                                                        
+        {
+          "name": "site:nav:menu:database:menu:ownership:url",
+          "valueString": "/resource/search/ownership"
+        },
+        {
+          "name": "site:nav:menu:database:menu:ownership:order",
+          "valueString": "13"
+        },
+        {
+          "name": "site:nav:menu:database:menu:serviceDelivery:text",
+          "valueString": "Service Delivery Type"
+        },
+        {
+          "name": "site:nav:menu:database:menu:serviceDelivery:url",
+          "valueString": "/resource/search/serviceDelivery"
+        },
+        {
+          "name": "site:nav:menu:database:menu:serviceDelivery:order",
+          "valueString": "14"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employmentStatus:text",
+          "valueString": "Employment status"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employmentStatus:url",
+          "valueString": "/resource/search/employmentStatus"
+        },
+        {
+          "name": "site:nav:menu:database:menu:employmentStatus:order",
+          "valueString": "15"
+        },
+        {
+          "name": "site:nav:menu:reports:text",
+          "valueString": "Reports"
+        },
+        {
+          "name": "site:nav:menu:reports:order",
+          "valueString": "5"
+        },
+        {
+          "name": "site:nav:menu:reports:icon",
+          "valueString": "mdi-poll-box"
+        },
+        {
+          "name": "site:nav:menu:reports:menu:staff:text",
+          "valueString": "Staff Report"
+        },
+        {
+          "name": "site:nav:menu:reports:menu:staff:url",
+          "valueString": "/report/ihris-es-report-ERHITES-staff"
+        },
+        {
+          "name": "site:nav:menu:reports:menu:staff:order",
+          "valueString": "1"
+        },
+      
+        {
+          "name": "site:nav:menu:dashboard:text",
+          "valueString": "Dashboard"
+        },
+        {
+          "name": "site:nav:menu:dashboard:order",
+          "valueString": "6"
+        },
+        {
+          "name": "site:nav:menu:dashboard:icon",
+          "valueString": "mdi-poll-box"
+        },
+        {
+          "name": "site:nav:menu:dashboard:menu:staff:text",
+          "valueString": "Dashboard"
+        },
+        {
+          "name": "site:nav:menu:dashboard:menu:staff:url",
+          "valueString": "/dashboard/5e05a950-66c2-11eb-89a4-fb5d91f931e8"
+        },
+        {
+          "name": "site:nav:menu:users:text",
+          "valueString": "System Users"
+        },
+        {
+          "name": "site:nav:menu:users:order",
+          "valueString": "6"
+        },
+        {
+          "name": "site:nav:menu:users:icon",
+          "valueString": "mdi-account-box-outline"
+        },
+        {
+          "name": "site:nav:menu:users:menu:users_search:text",
+          "valueString": "Search Users"
+        },
+        {
+          "name": "site:nav:menu:users:menu:users_search:url",
+          "valueString": "/resource/search/users"
+        },
+        {
+          "name": "shortname:Practitioner:format",
+          "valueString": "%s, %s"
+        },
+        {
+          "name": "shortname:Practitioner:order",
+          "valueString": "family,given"
+        },
+        {
+          "name": "shortname:Practitioner:paths:family:fhirpath",
+          "valueString": "name.first().family"
+        },
+        {
+          "name": "shortname:Practitioner:paths:given:fhirpath",
+          "valueString": "name.first().given"
+        },
+        {
+          "name": "shortname:Location:format",
+          "valueString": "%s"
+        },
+        {
+          "name": "shortname:Location:order",
+          "valueString": "name"
+        },
+        {
+          "name": "shortname:Location:paths:name:fhirpath",
+          "valueString": "name"
+        },
+        {
+          "name": "defaults:components:date-time:minValueDateTime",
+          "valueString": "1920-01-01"
+        },
+        {
+          "name": "defaults:components:date-time:maxValueDateTime",
+          "valueString": "2030-01-01"
+        },
+        {
+          "name": "defaults:components:date-time:calendar",
+          "valueString": "Ethiopian"
+        },
+        {
+          "name": "defaults:components:date:minValueDate",
+          "valueString": "1920-01-01"
+        },
+        {
+          "name": "defaults:components:date:maxValueDate",
+          "valueString": "2030-01-01"
+        },
+        {
+          "name": "defaults:components:date:calendar",
+          "valueString": "Gregorian"
+        },
+        {
+          "name": "workflow:processor:endrole:file",
+          "valueString": "../modules/workflowEndRoleEthiopia"
+        },
+        {
+          "name": "workflow:questionnaire:endrole:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-endrole"
+        },
+        {
+          "name": "workflow:processor:promotion:file",
+          "valueString": "../modules/workflowPromotionEthiopia"
+        },
+        {
+          "name": "workflow:questionnaire:promotion:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-promotion-ethiopia"
+        },
+        {
+          "name": "workflow:processor:leave:file",
+          "valueString": "../modules/workflowLeaveEthiopia"
+        },
+        {
+          "name": "workflow:questionnaire:leave:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-leave-ethiopia"
+        },
+        {
+          "name": "workflow:processor:leavestock:file",
+          "valueString": "../modules/workflowLeaveStockEthiopia"
+        },
+        {
+          "name": "workflow:questionnaire:leavestock:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-leave-stock-ethiopia"
+        },
+        {
+          "name": "workflow:processor:education:file",
+          "valueString": "../modules/workflowEducationHistory"
+        },
+        {
+          "name": "workflow:questionnaire:education:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-education-history"
+        },
+        {
+          "name": "workflow:processor:performance:file",
+          "valueString": "../modules/workflowPerformance"
+        },
+        {
+          "name": "workflow:questionnaire:performance:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-performance"
+        },
+        {
+          "name": "workflow:processor:employment:file",
+          "valueString": "../modules/workflowEmploymentHistory"
+        },
+        {
+          "name": "workflow:questionnaire:employment:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-employment-history"
+        },
+        {
+          "name": "workflow:processor:professional:file",
+          "valueString": "../modules/workflowProfessional"
+        },
+        {
+          "name": "workflow:questionnaire:professional:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-professional"
+        },
+        {
+          "name": "workflow:processor:emergency:file",
+          "valueString": "../modules/workflowEmergency"
+        },
+        {
+          "name": "workflow:questionnaire:emergency:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-emergency"
+        },
+        {
+          "name": "workflow:processor:collateral:file",
+          "valueString": "../modules/workflowCollateral"
+        },
+        {
+          "name": "workflow:questionnaire:collateral:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-collateral"
+        },
+        {
+          "name": "workflow:processor:discipline:file",
+          "valueString": "../modules/workflowDiscipline"
+        },
+        {
+          "name": "workflow:questionnaire:discipline:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-discipline"
+        },
+        {
+          "name": "workflow:processor:salary:file",
+          "valueString": "../modules/workflowSalary"
+        },
+        {
+          "name": "workflow:questionnaire:salary:url",
+          "valueString": "http://ihris.org/fhir/Questionnaire/ihris-salary"
+        }
+      ]
+    }
+  ]
+}
